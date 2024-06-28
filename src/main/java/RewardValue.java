@@ -1,5 +1,5 @@
 public class RewardValue {
-    public double cashValue, miles;
+    public double cashValue;
     public final double rate = 0.0035;
     public RewardValue (double cashValue){
         this.cashValue = cashValue;
