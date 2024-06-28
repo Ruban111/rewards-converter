@@ -3,13 +3,11 @@ public class RewardValue {
     public final double rate = 0.0035;
     public RewardValue (double cashValue){
         this.cashValue = cashValue;
-        this.miles = cashValue/rate;
+
 
     }
     public RewardValue(int miles){
-
-            this.miles = miles;
-            this.cashValue = miles*rate;
+        this.cashValue = converTOCash(miles);
 
     }
     public int converTOMiles(double cashVal){
